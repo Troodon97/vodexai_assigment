@@ -1,7 +1,7 @@
 # database.py
 from pymongo import MongoClient
 
-client = MongoClient("mongodb://localhost:27017")
+client = MongoClient("mongodb+srv://anand:Troodonmg123@cluster0.kkt3f.mongodb.net/")
 db = client["fastapi_db"]
 
 
